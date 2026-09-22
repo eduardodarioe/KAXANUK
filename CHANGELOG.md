@@ -41,6 +41,36 @@ for somebody who was not in the room:
 
 ---
 
+## 0.7.0 (2026-09-21)
+
+**MINOR** — the first strategy this repository has declared now has an investable universe and a
+written objective. Nothing published changes, because nothing had been published yet.
+
+**What to do differently:** nothing for existing numbers — there were none. Read `OBJECTIVE.md`
+before touching `Universe/Investable_Universe.csv`; the claim, the peer basket and the sub-periods
+in it were fixed before any return was looked at, and a change to the universe now would be a
+change to the hypothesis, not a fix to it.
+
+### Added
+
+* **`Universe/Investable_Universe.csv` seeds 42 Xetra equities across 13 sectors**, built around
+  Volkswagen preferred shares (`VOW3.DE`) and its listed auto peers (`BMW.DE`, `MBG.DE`, `CON.DE`),
+  screened through FMP for ten years of daily history and an average daily traded value of at least
+  €20M over the trailing year. **Point-in-time is not yet met** — the liquidity floor was applied
+  with today's data, not date by date — and that gap is recorded in `OBJECTIVE.md` as an open limit
+  rather than left for someone to discover later.
+* **`OBJECTIVE.md` states the first hypothesis**: a relative short on VW against an equal-weighted
+  basket of its peers. The claim, its source of edge, the other side of the trade, the test and the
+  kill switch are all fixed in it, before any return was looked at — the only market data touched
+  was average daily volume, used solely to set the universe's liquidity floor.
+* **Four sources in `Bibliotheca/Papers/`**, indexed in Part 1 of `BIBLIOGRAPHY.md`, back the
+  China-competition and Mexico-layoffs premise behind the objective — including one that argues
+  against it (Reuters, 2026: VW's China sales briefly recovered when EV subsidies expired), kept in
+  rather than dropped because it names the exact event the kill switch's "recovery in China"
+  scenario means.
+
+---
+
 ## 0.6.0 (2026-09-06)
 
 **MINOR** — one prompt sets a strategy up from nothing. *Please help install
