@@ -41,6 +41,55 @@ for somebody who was not in the room:
 
 ---
 
+## 0.9.0 (2026-09-22)
+
+**MINOR** — a second, independent hypothesis now lives in `US_AI_Drift/`, with its own universe and
+objective, alongside the VW-relative one at the root.
+
+**What to do differently:** nothing for the VW hypothesis — it is untouched. Work on the AI
+hypothesis reads only from `US_AI_Drift/`, never from the root's `Bibliotheca/`, `Universe/` or
+`OBJECTIVE.md`, and vice versa.
+
+### Added
+
+* **`US_AI_Drift/` holds a second, self-contained hypothesis**: 32 large-cap NYSE/Nasdaq AI-exposed
+  equities, screened through FMP for ten years of history and heavy liquidity, and an objective
+  claiming that a revenue beat of more than 3% keeps drifting for one to three months before fully
+  repricing — post-earnings-announcement drift, tested against its own 1989 academic baseline
+  (Bernard & Thomas) rather than assumed. **The universe's central weakness is stated up front:**
+  "AI-exposed" is a today's-hindsight label, not a point-in-time criterion, which is why the test
+  window starts at Q4 2022 instead of spanning the full ten years of price history the universe
+  happens to have.
+* **A `README.md` inside `US_AI_Drift/`** explains why a second hypothesis lives in one repository
+  instead of a second one — a deliberate, stated exception to the template's one-strategy-per-repo
+  convention, made explicit rather than left for a reader to wonder about.
+
+---
+
+## 0.8.0 (2026-09-21)
+
+**MINOR** — the VW hypothesis's source of edge, test and kill switch were rewritten before any
+result existed, so nothing published is invalidated.
+
+**What to do differently:** the test is no longer an always-on rolling short over three
+sub-periods. It is now an event study on two dated disclosures (24 July 2025, 31 August 2026) plus
+a before/after read around the January 2024 China report, and the kill switch requires **both**
+clean disclosure events to show drift, not a two-of-three majority a sample of two could not
+support.
+
+### Changed
+
+* **`OBJECTIVE.md`'s source of edge now commits to one mechanism** — behavioral under-reaction to
+  disclosed information — and explicitly rules out the permanent control-discount story it was
+  previously conflating with it. The choice was surfaced by a multi-perspective review that found
+  the two mechanisms implied incompatible test designs, one static and one event-driven, run as if
+  they were the same trade.
+* **The test, the kill switch, the claims table and the seven questions were rewritten to match**,
+  and the result is now named for what it is: a three-case study, with a published trial count of
+  three, not a statistical sample dressed up as more than it is.
+
+---
+
 ## 0.7.0 (2026-09-21)
 
 **MINOR** — the first strategy this repository has declared now has an investable universe and a
