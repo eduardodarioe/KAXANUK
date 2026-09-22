@@ -104,7 +104,10 @@ until your strategy has a question of its own.
 
 | Source | What it bears on |
 | --- | --- |
-| | |
+| More (2025), Reuters — *Volkswagen cuts 2025 guidance after $1.5-billion tariff hit* | the mechanism: a margin move (5.5-6.5% guidance cut to 4-5%) from tariffs, restructuring and EV mix together — the strongest single piece behind "the damage arrives in reported margins slowly." [Note.](Papers/Reuters_2025_VW_Tariff_Guidance_Cut.md) |
+| Mossalgue (2024), Electrek, citing CPCA/CATARC — *BYD overtakes VW's 15-year run as top seller in China* | the China half of the edge, dated: VW's fifteen-year lead ended in 2023, on two independently sourced counts. [Note.](Papers/Mossalgue_2024_BYD_Overtakes_Volkswagen_China.md) |
+| Goytia (2026), Mexico Business News, citing Inegi/SITIAVW — *VW cuts shift at Puebla plant amid regional headwinds* | the Mexico half of the edge: the Puebla night shift cut, with the caveat that the headcount is reported, not confirmed by VW. [Note.](Papers/Goytia_2026_VW_Puebla_Shift_Cut.md) |
+| Reuters (2026), via Investing.com — *Volkswagen reclaims top spot in China car sales as BYD falls to fourth* | **the argument against the thesis.** A subsidy-driven, two-month reversal in China — the first candidate event for the kill switch's "recovery in China" scenario. [Note.](Papers/Reuters_2026_VW_China_Top_Spot_Reclaimed.md) |
 
 ## Part 2 — Universe and data: what is investable, and what the data does to you
 
