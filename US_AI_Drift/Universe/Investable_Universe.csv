@@ -1,0 +1,33 @@
+main_identifier,name,sector,note
+NVDA,NVIDIA Corporation,Semiconductors,the largest and most-watched name in the universe; the edge is most likely already priced here if anywhere
+AMD,Advanced Micro Devices Inc,Semiconductors,
+AVGO,Broadcom Inc,Semiconductors,
+INTC,Intel Corporation,Semiconductors,
+MU,Micron Technology Inc,Semiconductors,
+TXN,Texas Instruments Inc,Semiconductors,
+QCOM,QUALCOMM Inc,Semiconductors,
+MRVL,Marvell Technology Inc,Semiconductors,
+KLAC,KLA Corporation,Semiconductors,
+AMAT,Applied Materials Inc,Semiconductors,
+LRCX,Lam Research Corporation,Semiconductors,
+TSM,Taiwan Semiconductor Manufacturing Co ADR,Semiconductors,foreign-domiciled ADR trading on NYSE; included because the market is NYSE, not the company's home exchange
+ASML,ASML Holding NV ADR,Semiconductors,foreign-domiciled ADR trading on Nasdaq; same note as TSM
+MSFT,Microsoft Corporation,Hyperscaler / cloud,
+AMZN,Amazon.com Inc,Hyperscaler / cloud,
+META,Meta Platforms Inc,Hyperscaler / cloud,
+GOOGL,Alphabet Inc,Hyperscaler / cloud,
+ORCL,Oracle Corporation,Hyperscaler / cloud,
+IBM,International Business Machines Corp,Hyperscaler / cloud,
+AAPL,Apple Inc,Big tech,least AI-specific revenue line of the universe; kept as the control case inside the theme
+CSCO,Cisco Systems Inc,Networking,
+ANET,Arista Networks Inc,Networking,
+CRM,Salesforce Inc,Enterprise software,
+NOW,ServiceNow Inc,Enterprise software,
+ADBE,Adobe Inc,Enterprise software,
+INTU,Intuit Inc,Enterprise software,
+WDAY,Workday Inc,Enterprise software,
+TEAM,Atlassian Corporation,Enterprise software,
+SAP,SAP SE ADR,Enterprise software,foreign-domiciled ADR trading on NYSE; the same company's Xetra listing (SAP.DE) is in the other hypothesis's universe as a different instrument
+PANW,Palo Alto Networks Inc,Cybersecurity,
+SMCI,Super Micro Computer Inc,Hardware,
+HPE,Hewlett Packard Enterprise Co,Hardware,
